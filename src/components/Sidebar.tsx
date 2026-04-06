@@ -22,7 +22,7 @@ const Sidebar = () => {
       style={{
         height: isOpen ? "15dvh" : "0dvh",
         transition: "height 0.2s ease-in-out",
-        overflow: isOpen ? "auto" : "hidden"
+        overflow:"hidden"
       }}>
         <ul>
           <li>Item 1</li>
