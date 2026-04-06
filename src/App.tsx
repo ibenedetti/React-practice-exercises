@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <Sidebar />
-      <h1>YUCA</h1>
       <button onClick={() => setCount (count + 1)}>{count}</button>
       <button onClick={() => setRandom (Math.random())}>{random}</button>
       
